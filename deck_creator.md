@@ -1,4 +1,4 @@
-# 🧠 SKILL: NexusDeck Slide Architect
+# 🧠 SKILL: deck_creator Slide Architect
 **Version:** 2.6.0 | **Category:** Productivity / Presentation Design  
 **Triggers:** "create slides", "powerpoint", "presentation", "pitch deck", "slide deck"  
 **Core Philosophy:** Slides are not documents; they are visual catalysts for decision-making. Prioritize signal over noise, cognitive ease, and narrative momentum.

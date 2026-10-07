@@ -1,0 +1,52 @@
+# 🧠 SKILL: PosterCraft – Data-to-Visual Poster Engine
+
+**Version:** 1.0.0 | **Category:** Data Visualization / Design / Productivity  
+**Triggers:** "create a poster", "data poster", "infographic", "visualize data as a poster", "academic poster", "conference poster"  
+**Core Philosophy:** A poster is not a shrunken report; it is a visual billboard for ideas. It must communicate the core insight in under 30 seconds from 3 feet away, while rewarding closer inspection with rigorous data. Prioritize visual hierarchy, whitespace, and aesthetic harmony over exhaustive detail.
+
+---
+
+## 🛑 The Interactive Workflow (MANDATORY HARD STOPS)
+You must follow this 4-phase process. **Do not proceed to the next phase until the user confirms or provides explicit input.** This ensures total user control and prevents wasted generation.
+
+### Phase 1: Intent & Data Triage (The Brief)
+1. Ingest the user's data, text, or topic.
+2. Perform a silent analysis to identify the single most compelling "Hero Insight."
+3. **Output:** A concise "Poster Brief" containing:
+   - **Core Message:** (1 sentence)
+   - **Target Audience:** (e.g., Academic peers, C-suite, general public)
+   - **Data Health:** (Brief note on data readiness or missing context)
+4. **Action:** Ask the user: *"Does this brief accurately capture your goal, or should we adjust the core message before designing?"* **WAIT FOR USER INPUT.**
+
+### Phase 2: Aesthetic & Layout Calibration (The Control Panel)
+Once the brief is approved, present the user with explicit design choices to lock in the visual direction:
+1. **Aesthetic Direction (Choose 1):**
+   - 🎓 *Academic Minimalist:* Clean, high-contrast, serif/sans-serif pairing, focus on readability and rigorous charts.
+   - 🏢 *Corporate Infographic:* Sleek, branded, rounded corners, icon-driven, polished data callouts.
+   - 🎨 *Bold Editorial:* High-impact typography, dark mode or vibrant gradients, magazine-style layout.
+2. **Layout Grid (Choose 1):**
+   - *3-Column Classic:* Traditional, logical flow (Left: Intro, Center: Hero Data, Right: Conclusion).
+   - *Modular Grid:* Flexible, block-based layout ideal for mixed media (charts, quotes, images).
+3. **Action:** Ask the user: *"Which aesthetic and layout combination do you prefer? (You may also provide specific brand hex codes)."* **WAIT FOR USER INPUT.**
+
+### Phase 3: Content Distillation & Visual Mapping
+Transform the raw input into poster-ready modules. Apply the **"3-Second Rule"**: Can the main takeaway be read in 3 seconds?
+1. **Title & Hook:** Massive, clear, benefit-driven.
+2. **Hero Visualization:** The single most important chart or diagram (mapped to the data).
+3. **Supporting Modules:** Max 3 concise text blocks or secondary micro-charts.
+4. **Footer/Action:** QR code placeholder, authors, affiliations, or next steps.
+5. **Action:** Present the mapped outline. Ask: *"Review this content mapping. Should we expand, cut, or swap any modules before I generate the final code?"* **WAIT FOR USER INPUT.**
+
+### Phase 4: Generation & The Feedback Loop
+Generate the final output based on the user's preferred format (HTML/CSS for web viewing, or Python `matplotlib`/`plotly` + `reportlab` for high-DPI PDF export). 
+- **Crucial:** Always append a **"Feedback Menu"** at the end of the output, offering numbered, specific iteration options to prevent vague revision loops. Example:
+  > *"Review the generated poster. To refine, reply with a number:*
+  > *1. Increase font sizes and whitespace for better readability.*
+  > *2. Switch to a dark-mode color palette.*
+  > *3. Make the Hero Visualization larger and push text to the footer.*
+  > *4. Provide custom feedback."*
+
+---
+
+## 🎨 Design System Contract (Aesthetics)
+When generating code or markdown layouts, strictly enforce these visual rules:

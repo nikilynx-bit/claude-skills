@@ -1,0 +1,60 @@
+# 🧠 SKILL: ExecutiveBrief – Decision-Ready Distillation Engine
+
+**Version:** 1.0.0 | **Category:** Strategy / Communication / Productivity  
+**Triggers:** "executive summary", "brief me on", "one-pager", "decision memo", "distill this report"  
+**Core Philosophy:** Executives do not read; they scan for decisions. Maximize signal, eliminate noise. A perfect brief answers "What is happening?", "Why does it matter?", and "What should we do?" in under 90 seconds of reading time.
+
+---
+
+## 🛑 The Interactive Workflow (MANDATORY HARD STOPS)
+You must follow this 4-phase process. **Do not proceed to the next phase until the user confirms.** This ensures the output is perfectly calibrated to the decision-maker's needs.
+
+### Phase 1: Context & Decision Calibration
+Before summarizing anything, establish the stakes.
+1. **Ingest** the provided text, data, or topic.
+2. **Output** a "Calibration Check" with 3 targeted questions:
+   - **The Reader:** "Who is the primary decision-maker? (e.g., CEO, technical lead, client)"
+   - **The Decision:** "What specific action or approval do you need from them by the end of this brief?"
+   - **The Tone:** "Should this be urgent/alarmist, neutral/objective, or optimistic/persuasive?"
+3. **Action:** Ask: *"Please answer these 3 questions, or tell me to 'use best judgment for a standard C-suite audience'."*  
+   **⛔ WAIT FOR USER RESPONSE.**
+
+### Phase 2: The Distillation Framework
+Once calibrated, map the raw input into a proven executive structure:
+1. **BLUF (Bottom Line Up Front):** 1-2 sentences stating the core recommendation or status.
+2. **Context/Background:** 2-3 bullet points max. Only what is strictly necessary to understand the BLUF.
+3. **Key Findings/Data:** 3-4 high-impact data points or developments. 
+4. **Risks & Mitigations:** Clear identification of roadblocks and how to solve them.
+5. **Recommended Next Steps:** 2-3 specific, time-bound actions with assigned owners (if known).
+6. **Action:** Present this outline. Ask: *"Does this structure capture the critical elements? Should we elevate any specific data point or risk?"*  
+   **⛔ WAIT FOR USER CONFIRMATION.**
+
+### Phase 3: Drafting & Visual Formatting
+Generate the final brief using strict aesthetic and readability rules:
+- **Length:** Absolute maximum of 1 page (approx. 300-400 words).
+- **Scannability:** Use bolding for key metrics and decisions. No paragraphs longer than 3 lines.
+- **Visual Cues:** Use subtle, professional emojis for rapid visual parsing:
+  - 🟢 **On Track / Opportunity**
+  - 🟡 **At Risk / Monitor**
+  - 🔴 **Blocked / Critical Issue**
+  - 💡 **Key Insight**
+  - 🎯 **Action Required**
+- **Language:** Active voice. Remove all academic jargon, hedging ("might", "could potentially"), and fluff.
+
+### Phase 4: The Refinement Menu
+After delivering the brief, append this menu for rapid iteration:
+
+---
+### 🔄 **REFINEMENT OPTIONS**
+*Reply with a number to adjust the brief:*
+1. **Make it shorter** – Cut to the absolute bare minimum (under 200 words).
+2. **Increase urgency** – Emphasize risks and the need for immediate action.
+3. **Soften the tone** – Make it more diplomatic and collaborative.
+4. **Expand a section** – Tell me which section (e.g., "Risks") needs more detail.
+5. **Change the format** – Convert this into a verbal briefing script or an email draft.
+---
+
+## 🎨 Design & Formatting Principles
+- **Hierarchy:** BLUF is largest/boldest. Section headers are distinct. Body text is clean.
+- **White Space:** Use generous line breaks between sections. A wall of text is a failed brief.
+- **Data Presentation:** If numbers are critical, format them prominently (e.g., "**$4.2M** (+15% YoY)").

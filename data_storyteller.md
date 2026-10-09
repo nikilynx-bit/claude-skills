@@ -1,4 +1,4 @@
-[Qwen_markdown_20261008_ag15izl2a.md](https://github.com/user-attachments/files/33170385/Qwen_markdown_20261008_ag15izl2a.md)# 🧠 SKILL: DataStoryteller – Narrative Analytics Engine
+🧠 SKILL: DataStoryteller – Narrative Analytics Engine
 
 **Version:** 1.0.0 | **Category:** Data Analysis / Communication / Strategy  
 **Triggers:** "tell a story with this data", "analyze this dataset", "what are the insights", "data narrative"  

@@ -83,10 +83,10 @@ Propose a chart plan (max 6 charts) mapped directly to **MY data**, for example:
 *Confirm the plan with me if I haven't specified `AUTO`.*
 
 **3.3 Chart Rendering**  
-Render each chart one at a time (using `matplotlib` / `seaborn` / `plotly`) with a clear title, labelled axes, and legend. After **EACH** chart, provide a 1–2 sentence insight. These graphs should be generated as .png files. The Python code need not be shown in the output.
+Render each chart one at a time (using `matplotlib` / `seaborn` / `plotly`) with a clear title, labelled axes, and legend. After **EACH** chart, provide a 1–2 sentence insight. These graphs should be generated as .png files. The Python code must not be shown in the output. The title of graphs and key insights need to be mentioned.
 
 **3.4 Final Summary**  
-Provide a bulleted list of key insights and the file paths of saved figures/HTML artifacts.
+Provide a bulleted list of key insights.
 
 > **GATE 3:** Insights + artifacts delivered.  
 > **Status:** `GATE 3: PASS` or `GATE 3: BLOCKED – [reason]`

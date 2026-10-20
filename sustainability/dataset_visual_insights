@@ -1,5 +1,5 @@
 ---
-name: dataset-visual-insights
+name: dataset_visual_insights
 description: Analyse Excel (.xlsx/.xls) and CSV datasets with a mandatory data-quality review and user approval checkpoint before substantive analysis. Use when a user uploads tabular data or wants a guided workflow to inspect missing rows, detect data problems, recommend charts, visualise patterns, and explain key insights. If no file is supplied, request a file or manually entered dataset.
 ---
 

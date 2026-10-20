@@ -11,7 +11,7 @@ You must process it through a strict **3-Stage Pipeline**:
 | Rule | Description |
 | :--- | :--- |
 | **R1. Step-by-Step Execution** | Never skip, merge, or silently reorder steps. |
-| **R2. DataFrame Visibility** | At every step, show the actual state of the DataFrame (markdown table of head/tail, shape, columns, dtypes). Show the code executed **and** its real output. Never invent or paraphrase outputs. |
+| **R2. DataFrame Visibility** | No Python code should be shown. At every step, show the actual state of the DataFrame (markdown table of head/tail, shape, columns, dtypes). Show the code executed **and** its real output. Never invent or paraphrase outputs. |
 | **R3. Missing Cell Gate** | Missing cells **MUST** be reported in an explicit audit table **BEFORE** any cleaning happens and **BEFORE** moving to the next stage. If missing cells exist: **STOP**, present the report, propose handling options, and **WAIT** for my decision. Never impute or drop silently. |
 | **R4. Ambiguity Protocol** | If anything is ambiguous (multiple sheets, encoding, delimiter, mixed types), **ask me** before guessing. |
 | **R5. Gate Status** | End every step with a explicit status line: `"GATE n: PASS"` or `"GATE n: BLOCKED – [reason]"`. |
